@@ -1,0 +1,85 @@
+/* STYLING LINKS  */
+
+/* NOTES 
+
+Link States
+
+Links can exist in different states & can be styled uing different pseudo-classes 
+
+Link: A link that has a destination (i.e., not just a named anchor), styled using the :link pseudo class.
+
+Visited: A link that has already been visited (exists in the browser's history), styled using the :visited pseudo class.
+
+Hover: A link that is hovered over by a user's mouse pointer, styled using the :hover pseudo class.
+
+Focus: A link that is focused (e.g., moved to by a keyboard user using the Tab key or something similar, or programmatically focused using HTMLElement.focus()) — this is styled using the :focus pseudo class.
+
+Active: A link that is activated (e.g., clicked on), styled using the :active pseudo class.
+
+*/
+
+/* DEFAULT STYLES 
+
+Before we style the links, check out the default styling being applied. 
+Open the page in several browsers - are the styles consistent across browsers? 
+Remember - users are used to the defaults, so we can't stray too from these styles as users may be confused 
+
+*/
+
+/* ADDING CUSTOM STYLES TO LINKS   */
+
+/* the order is important when styling links 
+
+
+a {
+
+}
+
+
+a:link {
+
+}
+
+a:visited {
+
+}
+ 
+
+a:focus {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+*/
+
+
+/* STLYING LINKS AS BUTTONS  */
+/*https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links#styling_links_as_buttons*/
+/* Now try styling links to appear like buttons
+
+
+- links should have a background color of background-color: #F5F5DC; and the text should be #333;
+- visited and focus links should have a background-color of #265301; and the text should #fff
+- when you hover on the links, the background should change to  background-color: #B2AC88; and the text should be color: #fff;
+- an active link should have a background of #333 and text color #fff 
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+/* Adapted from https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links */

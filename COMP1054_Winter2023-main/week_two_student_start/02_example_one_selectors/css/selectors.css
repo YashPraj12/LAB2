@@ -1,0 +1,52 @@
+/* EXAMPLE ONE - THE *TRICKY* CSS SELECTORS */
+
+/* Pseudo Selectors */
+
+/* Pseudo Classes */
+/* specifies a special state of the selected element*/
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes*/
+
+
+/* nth-child */
+
+
+/* nth-of-type */
+
+
+
+ol:first-of-type {
+    border: 5px solid purple;
+}
+
+/* applies to only immediate relationships */
+/* 
+
+    TRY IT 
+    use nth of type to target the third h2
+
+    */
+
+/* 
+
+    TRY IT 
+    use nth-child to target the second h2 
+
+*/
+
+
+/* Pseudo Elements */
+
+
+
+/* Combinators */
+
+/* Descendant Selector */
+
+
+/* Direct Child Selector */
+
+
+/* Adjacent Sibling Selector */
+
+
+/* General Sibling Selector */
